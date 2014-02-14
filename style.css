@@ -29,6 +29,8 @@ A:hover {color: #cb3a01; text-decoration: none;}
     width:1000px;
     margin:0 auto;
 	margin-top:5px;
+	padding-left: 25px;
+	padding-right: 25px;
 	padding-bottom: 50px;
 	overflow: auto;
 }
@@ -51,7 +53,6 @@ A:hover {color: #cb3a01; text-decoration: none;}
 	height:35px;
 	margin:0 auto;	
 	padding-top:15px;
-	padding-left:5px;
 }
 
 #header{	
@@ -65,7 +66,7 @@ A:hover {color: #cb3a01; text-decoration: none;}
 }
 
 #header-content{
-	width:1005px;
+	width:1000px;
 	position:relative;
 	height:70px;
 	margin:0 auto;	
@@ -90,8 +91,9 @@ A:hover {color: #cb3a01; text-decoration: none;}
 }
 
 #header2{	
+	background-image:url('img/headerbg.png');
 	background-color:#f1f1f1;
-	border:1px solid #e5e5e5;
+	border:1px solid #222222;
     width:1000px;
 	height:150px;
 	margin:0 auto;	

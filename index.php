@@ -14,19 +14,17 @@
 			<div id="header-content">
 				<div id="header-left">
 					<span>
-						MMIO PORTFOLIO&#160;&#160;
+						MMIO PORTFOLIO
 					</span>	
 				</div>
 				<div id="header-right">
-					<a href="#">HOME</a>&#160;
-					<a href="#">LINKS</a>&#160;
-					<a href="#">ABOUT</a>
+					<?php include 'menu.php'; ?>
 				</div>
 			</div>
 		</div>
-		<div id="header2">
-		</div>
-		<div id="container">	
+		<div id="container">
+			<div id="header2">
+			</div>
 			<h2>Portfolio</h2>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla massa erat, laoreet sit amet condimentum quis, 
@@ -49,7 +47,7 @@
 			<br />
 			<h2>Portfolio</h2>
 			<p>
-				<img src="img/Avatar.png" align="right" alt="avatar" style="margin-left:15px;" />
+				<img src="img/avatar.png" align="right" alt="avatar" style="margin-left:15px;" />
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla massa erat, laoreet sit amet condimentum quis, 
 				mattis quis diam. Curabitur facilisis nunc in feugiat tempor. Nullam ut consequat nulla, dictum tempor mi. 
 				Proin ut lorem non nulla placerat accumsan sit amet non metus.
@@ -65,12 +63,12 @@
 				Duis at lobortis purus, eu lacinia ipsum. Pellentesque fermentum, odio a pretium pretium, 
 				nulla tellus commodo mi, eu volutpat nunc tellus eu felis. Aenean id ultricies massa.
 			</p>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla massa erat, laoreet sit amet condimentum quis, 
+			<p><i>
+				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla massa erat, laoreet sit amet condimentum quis, 
 				mattis quis diam. Curabitur facilisis nunc in feugiat tempor. Nullam ut consequat nulla, dictum tempor mi. 
 				Proin ut lorem non nulla placerat accumsan sit amet non metus. Pellentesque fermentum, odio a pretium pretium, 
-				nulla tellus commodo mi, eu volutpat nunc tellus eu felis. Aenean id ultricies massa. Pellentesque id blandit ante. 
-			</p>
+				nulla tellus commodo mi, eu volutpat nunc tellus eu felis. Aenean id ultricies massa. Pellentesque id blandit ante."
+			</i></p>
 			<br />
 		</div>
 	</div>
