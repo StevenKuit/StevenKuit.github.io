@@ -19,6 +19,13 @@ h2  {
 	font-family: 'Arial', sans-serif;
 	font-size: 20px;
 }
+
+hr {
+	border: 0;
+	width: 100%;
+	background-color: #cb3a01;
+	height: 1px;
+}
 	
 A:link {color: #cb3a01; text-decoration: none;}
 A:visited {color: #cb3a01; text-decoration: none;}
