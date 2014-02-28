@@ -1,0 +1,24 @@
+body {
+	background-color:#3e3e3e;
+	margin: 0;
+	padding:0;
+	color:#ffffff;
+	font-family: 'Segoe UI', sans-serif;
+	font-size: 14px;
+}
+
+A:link {color: #cb3a01; text-decoration: none;}
+A:visited {color: #cb3a01; text-decoration: none;}
+A:active {color: #cb3a01; text-decoration: none;}
+A:hover {color: #cb3a01; text-decoration: none;}
+
+#container {
+	background-color:#ffffff;
+    width:1000px;
+    margin:0 auto;
+	margin-top: 50px;
+	padding-top:50px;
+	padding-bottom:50px;
+	overflow: auto;
+	text-align: center;
+}
