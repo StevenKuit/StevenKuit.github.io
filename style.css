@@ -17,7 +17,7 @@ h1  {
 h2  {
 	color:#cb3a01;
 	font-family: 'Arial', sans-serif;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 hr {
@@ -39,7 +39,7 @@ A:hover {color: #cb3a01; text-decoration: none;}
 	font-size: 12px; 
 }
 
-.dump { 
+.dump { 	
 	border:1px solid #01cbac;
 	color: #01cbac; 
 	font-size: 12px; 
@@ -52,33 +52,29 @@ A:hover {color: #cb3a01; text-decoration: none;}
 }
 
 #container {
-    width:1000px;
+    width:50%;
     margin:0 auto;
 	margin-top:5px;
 	padding-left: 25px;
 	padding-right: 25px;
-	padding-bottom: 50px;
+	padding-bottom:30px;
 	overflow: auto;
+	border-left:1px solid #e5e5e5;
+	border-right:1px solid #e5e5e5;
 }
 
 #footer{	
 	background-color:#f1f1f1;
-	border-bottom:1px solid #e5e5e5;
-	border-top:1px solid #e5e5e5;
-    width:100%;
-	height:50px;
+	border:1px solid #e5e5e5;
+	color: #cb1901; 
+	font-size: 14px; 
+    width:148px;
 	margin:0 auto;	
-	margin-top:-52px;
+	margin-top:25px;
+	margin-bottom:25px;
 	clear:both;
-}
-
-#footer-content{
-	color:#cb3a01;
-	width:1000px;
-	position:relative;
-	height:35px;
-	margin:0 auto;	
-	padding-top:15px;
+	text-align: center;
+	color: #cb3a01
 }
 
 #header{	
@@ -116,11 +112,13 @@ A:hover {color: #cb3a01; text-decoration: none;}
 	padding-top:40px;
 }
 
-#header2{	
+.divider{	
 	border-top:1px dotted #e5e5e5;
-    width:1000px;
+    width:100%;
 	height:2px;
 	margin:0 auto;	
+	margin-top:15px;
+	margin-bottom:15px;
 	position:relative;
 }
 
@@ -128,4 +126,60 @@ A:hover {color: #cb3a01; text-decoration: none;}
 	width:100%;
 	min-height: 100%;
 	position: relative;
+}
+
+.deliverables {
+text-align: center;
+}
+
+.deliverables a {
+display:inline-block;
+width:150px;
+height:150px;
+background-color:white;
+border:1px solid #e5e5e5;
+padding: 1px;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+opacity: 0.85;
+
+
+filter: grayscale(90%0%);
+    -webkit-filter: grayscale(90%);  /* For Webkit browsers */
+    filter: gray;  /* For IE 6 - 9 */
+    -webkit-transition: all .6s ease;  /* Transition for Webkit browsers */
+}
+
+.deliverables a:hover {
+filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    filter: none;
+opacity: 1;
+box-shadow: 0 0 10px white;
+
+}
+
+.deliverables a:hover:after
+{
+	color: black;
+	text-decoration: none;
+	color:#222222;
+	font-family: 'Segoe UI', sans-serif;
+	font-size: 14px;
+    content: attr(alt);
+	position: relative;
+    float: left;
+    list-style: none;
+	background-color: white;
+	margin-top: 5px;
+	width: 148px;
+	border: 1px solid #e5e5e5;
+	
+
+	-moz-box-shadow: inset 0 0 0 1px #fff;
+	-webkit-box-shadow: inset 0 0 0 1px #fff;
+	box-shadow: 0 0 10px white;
+
 }
